@@ -1,0 +1,28 @@
+package day3;
+import java.util.Scanner;
+
+public class Question_9
+{
+    public static void main(String args[])
+    {
+        int n,c=0;
+        Scanner scnr=new Scanner (System.in);
+        System.out.println("enter a no. to be checked");
+        n=scnr.nextInt();
+        for(int i=1;i<=n;i++)
+        {
+            if(n%i==0)
+            c++;
+            else
+            continue;
+        }
+        if(c==2)
+        {
+            System.out.println(n+" is a prime number");
+        }
+        else
+        {
+            System.out.println(n+" is not a prime number");
+        }
+    }
+    }
