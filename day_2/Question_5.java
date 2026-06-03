@@ -1,6 +1,6 @@
 package day_2;
 import java.util.Scanner;
-public class Question_1
+public class Question_5
 {
     public static void main(String args[])
     {
