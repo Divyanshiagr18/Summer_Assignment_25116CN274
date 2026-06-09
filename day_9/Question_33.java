@@ -1,4 +1,4 @@
-package day_8 ;
+package day_9 ;
 import java.util.Scanner;
 public class Question_33
 {
