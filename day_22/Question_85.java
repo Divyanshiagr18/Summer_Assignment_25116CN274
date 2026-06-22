@@ -1,4 +1,4 @@
-package day_21 ;
+package day_22 ;
 import java.util.*;
 public class Question_85
 {
