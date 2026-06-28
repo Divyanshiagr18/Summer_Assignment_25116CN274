@@ -1,4 +1,4 @@
-package day_27;
+package day_28;
 import java.util.Scanner;
 class BankAccount {
     int accountNo;
@@ -61,6 +61,7 @@ public class BankAccountSystem {
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             choice = sc.nextInt();
+
             switch (choice) {
                 case 1:
                     b.deposit();
